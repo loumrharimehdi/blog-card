@@ -63,6 +63,8 @@ body{
 .text-3a{
     font-size: 14px;
     font-weight: 400;
+    width: fit-content;
+
 }
 
 .text-3b{
@@ -111,10 +113,6 @@ span{
     display: flex;
     gap: var(--spacing-150);
     align-items: center;
-    width: fit-content;
-}
-
-.text-3a{
     width: fit-content;
 }
 
