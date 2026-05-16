@@ -1,0 +1,131 @@
+/* IMPORTS */
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/Figtree-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+    :root{
+        /* COLORS */
+        --primary: #f4d04E;
+        --gray-950: #111111;
+        --gray-500: #6B6B6B;
+
+        /* SPACING */
+        --spacing-300: 24px;
+        --spacing-150: 12px;
+        --spacing-100: 8px;
+        --spacing-50: 4px;
+
+        /* RADIUS */
+        --radius-100: 4px;
+        --radius-200: 10px;
+        --radius-400: 20px;
+    }
+
+/* TYPOGRAPHY */
+
+body{
+    font-family: "Figtree", sans-serif;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.text-1{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text-2{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray-500);
+
+}
+
+.text-3a{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-3b{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* LAYOUT */
+html, body{
+    height: 100%;
+    background-color: var(--primary);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    width: fit-content;
+    background-color: var(--primary);
+    padding: 4px 12px;
+    border-radius: var(--radius-100);
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-300);
+    width: 384px;
+    padding: var(--spacing-300);
+    background-color: white;
+    border-radius: var(--radius-400);
+    border: 1px solid var(--gray-950);
+
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-150);
+}
+
+.card-footer{
+    display: flex;
+    gap: var(--spacing-150);
+    align-items: center;
+    width: fit-content;
+}
+
+.text-3a{
+    width: fit-content;
+}
+
+.article-illustration{
+    object-fit: cover;
+    height: 200px;
+    border-radius: var(--radius-200);
+}
+
+/* EFFECTS */
+
+.card-container{
+    box-shadow: 8px 8px 0px 0px var(--gray-950);
+}
