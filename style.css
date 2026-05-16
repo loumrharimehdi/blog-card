@@ -106,7 +106,7 @@ span{
 .card-content{
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-150);
+    gap: var(--spacing-300);
 }
 
 .card-footer{
