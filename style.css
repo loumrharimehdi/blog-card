@@ -30,6 +30,7 @@
 
         /* SPACING */
         --spacing-300: 24px;
+        --spacing-200: 16px;
         --spacing-150: 12px;
         --spacing-100: 8px;
         --spacing-50: 4px;
@@ -106,7 +107,7 @@ span{
 .card-content{
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-300);
+    gap: var(--spacing-200);
 }
 
 .card-footer{
